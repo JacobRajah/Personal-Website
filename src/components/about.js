@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './about.css'
 import './work.css'
+import Software from './pages/software-exp'
 
 function Media(props) {
     const [move, setmove] = React.useState(0);
@@ -22,44 +23,6 @@ function MediaOptions(props) {
             <h4 className="projects" onClick={() => props.toProjects()}>Projects</h4>
             <h4 className="education" onClick={() => props.toEducation()}>Education</h4>
             <h4 className="contact" onClick={() => props.toContact()}>Contact</h4>
-        </div>
-    )
-}
-
-function Software(props) {
-    return (
-        <div>
-            <div className="panel">
-                <h3>Software Experience</h3>
-                <div className="top">
-                    <h5 className="webdev">Web Development: </h5>
-                    <p className="webexp">Node.js</p>
-                    <p className="webexp">React.js</p>
-                    <p className="webexp">HTML/CSS</p>
-                    <p className="webexp">MongoDB</p>
-                </div>
-                <div className="top">
-                    <h5 className="webdev">Object Oriented Programming (OOP): </h5>
-                    <p className="webexp">Python</p>
-                    <p className="webexp">Java</p>
-                </div>
-                <div className="top">
-                    <h5 className="webdev">Systems Development: </h5>
-                    <p className="webexp">C</p>
-                </div>
-                <div className="top">
-                    <h5 className="webdev">Unix Shell: </h5>
-                    <p className="webexp">Bash</p>
-                    <p className="webexp">Git</p>
-                </div>
-                <div className="top">
-                    <h5 className="webdev">App Development: </h5>
-                    <p className="webexp">Android Studio</p>
-                </div>
-            </div>
-            <span className="Next" onClick={() => props.backOptions()}>
-                <p className="a1"></p><p className="a2"></p>
-            </span>
         </div>
     )
 }

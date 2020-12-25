@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.Next {
+    float: right;
+    margin-top: -2%;
+    margin-right: 2%;
+    color: mediumblue;
+    cursor: pointer;
+    border: 3px solid mediumblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: ease-out 0.4s;
+    animation: fadeIn ease-in 1s;
+}
+
+.Next:hover {
+    background-color: mediumblue;
+    transition: all ease 0.4s;
+}
+
+.a1 {
+    margin-top: 18px;
+    width: 18px;
+    border-bottom: 8px solid white;
+    transform: skewY(-45deg);
+    display: inline-block;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.397)
+}
+
+.a2 {
+    margin-top: 18px;
+    width: 18px;
+    border-bottom: 8px solid white;
+    transform: skewY(45deg);
+    display: inline-block;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.397)
+}
+
+.panel-software {
+    background-color: #282c347e;
+    border-radius: 40px;
+    width: 70%;
+    height: 20em;
+    display: block;
+    margin-left: 14%;
+    margin-top: -15%;
+    animation: fadeIn ease-in 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.sw-heading {
+    display: inline-block;
+    margin-top: 3%;
+    font-family: 'Pacifico', cursive;
+}
+
+.drop-down {
+    display: block;
+    transform: rotate(-90deg);
+}
+
+.drop-down[drop="1"] {
+    display: block;
+    animation: fadeIn ease-in 1s;
+    transform: rotate(0deg);
+}
+
+.d1 {
+    display: inline-block;
+    border-bottom: 5px solid mediumblue;
+    width: 0.5em;
+    transform: skewY(45deg);
+}
+
+.d2 {
+    display: inline-block;
+    margin-top: -2em;
+    border-bottom: 5px solid mediumblue;
+    width: 0.5em;
+    transform: skewY(-45deg);
+}
