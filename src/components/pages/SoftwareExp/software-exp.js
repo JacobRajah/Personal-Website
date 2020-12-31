@@ -103,7 +103,7 @@ class Software extends Component{
                         <Legend skill="Example" prog="60%"></Legend>
                     </div>
                 </div>
-                <span className="Next" onClick={() => this.props.backOptions()}>
+                <span className="Next-SW" onClick={() => this.props.backOptions()}>
                     <p className="a1"></p><p className="a2"></p>
                 </span>
             </div>

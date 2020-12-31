@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.Next-WK {
+    float: right;
+    margin-top: 4%;
+    margin-right: 2%;
+    color: mediumblue;
+    cursor: pointer;
+    border: 3px solid mediumblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: ease-out 0.4s;
+    animation: fadeIn ease-in 1s;
+}
+
+.Next-WK:hover {
+    background-color: mediumblue;
+    transition: all ease 0.4s;
+}
+
+.a1 {
+    margin-top: 18px;
+    width: 18px;
+    border-bottom: 8px solid white;
+    transform: skewY(-45deg);
+    display: inline-block;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.397)
+}
+
+.a2 {
+    margin-top: 18px;
+    width: 18px;
+    border-bottom: 8px solid white;
+    transform: skewY(45deg);
+    display: inline-block;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.397)
+}
+
+.panel-wk {
+    background-color: #282c347e;
+    border-radius: 40px;
+    width: 70%;
+    height: 16em;
+    display: block;
+    margin-left: 14%;
+    margin-top: -15%;
+    animation: fadeIn ease-in 1s;
+}
+
+.panel::-webkit-scrollbar { 
+    display: none;
+}
+
+.panel[fadeout="1"] {
+    animation: fadeOut ease-out 1s;
+}
+
+.wk-heading {
+    font-family: 'Pacifico', cursive;
+}
+
+.line-1 {
+    margin-left: 50%;
+    width: 1px;
+    height: 3em;
+    border-left: 4px solid black;
+    display: block;
+}
+
+.circle-1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    display: block;
+    margin-left: 3%;
+}
+
+.timeline {
+    width: 15px;
+    float: left;
+    margin-left: 4%;
+}
+
+.section-id-1 {
+    margin-top: 1%;
+    margin-left: 1%;
+    float: left;
+    font-size: 75%;
+}
+
+.sw-heading {
+    display: inline-block;
+    margin-top: 3%;
+    font-family: 'Pacifico', cursive;
+}
+
+.drop-down {
+    height: 40px;
+    margin-left: 1%;
+    float: left;
+    transform: rotate(-90deg);
+}
+
+.drop-down[drop="1"] {
+    height: 40px;
+    margin-left: 1%;
+    float: left;
+    transform: rotate(0deg);
+}
+
+.WK-comp {
+    margin-top: 12.4%;
+    height: 25%;
+}
+
+.WK-data {
+    float: left;
+    margin-left: 10px;
+    margin-top: -27px;
+}
+
+.WK-Cat:hover {
+    color: mediumblue;
+    cursor: pointer;
+}
+
+.WK-content {
+    margin-left: 1%;
+    font-size: 55%;
+    margin-top: -15%;
+    width: 380%;
+    background-color: black;
+}
+
+.text-WK {
+    margin-top: -1.5%;
+    margin-left: -70%;
+}

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-.Next {
+.Next-SW {
     float: right;
     margin-top: -2%;
     margin-right: 2%;
@@ -13,7 +13,7 @@
     animation: fadeIn ease-in 1s;
 }
 
-.Next:hover {
+.Next-SW:hover {
     background-color: mediumblue;
     transition: all ease 0.4s;
 }
