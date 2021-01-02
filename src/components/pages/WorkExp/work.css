@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .Next-WK {
     float: right;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-right: 2%;
     color: mediumblue;
     cursor: pointer;
@@ -40,10 +40,10 @@
     background-color: #282c347e;
     border-radius: 40px;
     width: 70%;
-    height: 16em;
+    height: 18em;
     display: block;
     margin-left: 14%;
-    margin-top: -15%;
+    margin-top: -16%;
     animation: fadeIn ease-in 1s;
 }
 
@@ -63,6 +63,14 @@
     margin-left: 50%;
     width: 1px;
     height: 3em;
+    border-left: 4px solid black;
+    display: block;
+}
+
+.line-2 {
+    margin-left: 50%;
+    width: 1px;
+    height: 4em;
     border-left: 4px solid black;
     display: block;
 }
@@ -90,35 +98,51 @@
     font-size: 75%;
 }
 
-.sw-heading {
-    display: inline-block;
-    margin-top: 3%;
-    font-family: 'Pacifico', cursive;
-}
-
-.drop-down {
-    height: 40px;
-    margin-left: 1%;
+.drop-down-WK {
     float: left;
+    width: 20px;
+    height: 30px;
+    margin-top: -3px;
     transform: rotate(-90deg);
 }
 
-.drop-down[drop="1"] {
-    height: 40px;
-    margin-left: 1%;
+.drop-down-WK[drop="1"] {
     float: left;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: 5px;
     transform: rotate(0deg);
 }
 
+.d1-WK {
+    display: inline-block;
+    border-bottom: 5px solid mediumblue;
+    width: 0.3em;
+    transform: skewY(45deg);
+}
+
+.d2-WK {
+    display: inline-block;
+    margin-top: -2.1em;
+    border-bottom: 5px solid mediumblue;
+    width: 0.3em;
+    transform: skewY(-45deg);
+}
+
 .WK-comp {
-    margin-top: 12.4%;
+    margin-top: 4.1em;
+    margin-left: 2.1em;
     height: 25%;
 }
 
 .WK-data {
-    float: left;
-    margin-left: 10px;
-    margin-top: -27px;
+    margin-left: 1.2em;
+    width: 6em;
+    height: 1em;
+}
+
+.WK-Cat {
+    font-size: 18px;
 }
 
 .WK-Cat:hover {
@@ -127,14 +151,9 @@
 }
 
 .WK-content {
-    margin-left: 1%;
-    font-size: 55%;
-    margin-top: -15%;
-    width: 380%;
-    background-color: black;
+    font-size: 12px;
 }
 
-.text-WK {
-    margin-top: -1.5%;
-    margin-left: -70%;
-}
+/* .text-WK {
+    
+} */

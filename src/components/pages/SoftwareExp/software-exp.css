@@ -84,7 +84,6 @@
     border-bottom: 5px solid mediumblue;
     width: 0.5em;
     transform: skewY(45deg);
-    box-shadow: 0px -1px black;
 }
 
 .d2 {
@@ -93,7 +92,6 @@
     border-bottom: 5px solid mediumblue;
     width: 0.5em;
     transform: skewY(-45deg);
-    box-shadow: 0px -1px black;
 }
 
 .SW-comp {
@@ -119,7 +117,7 @@
 .progbar {
     background-color: black;
     width: 80%;
-    height: 8%;
+    height: 1.3em;
     border-radius: 25px;
     margin-left: 10%;
 }
@@ -136,26 +134,26 @@
 }
 
 .sw-web {
-    margin-top: -5%;
+    margin-top: -1em;
     width: 40%;
 }
 
 .sw-oop {
-    margin-top: 10%;
+    margin-top: 2.5em;
     width: 58%;
 }
 
 .sw-sys {
     width: 50%;
     display: inline-block;
-    margin-top: -5.5%;
+    margin-top: -1.5em;
     margin-left: 12%;
 }
 
 .sw-unix {
     width: 40%;
     display: inline-block;
-    margin-top: -5.5%;
+    margin-top: -1.5em;
 }
 
 .sw-legend {
@@ -167,13 +165,13 @@
 .l-legend {
     float: left;
     font-size: 14px;
-    margin-top: 1%;
+    margin-top: 0.5em;
 }
 
 .r-legend {
     float: right;
     font-size: 14px;
-    margin-top: 1%;
+    margin-top: 0.5em;
 }
 
 .c-legend {

@@ -6,9 +6,9 @@ function Timeline(props) {
         <div className="timeline">
             <span className="line-1"></span>
             <span className="circle-1"></span>
-            <span className="line-1"></span>
+            <span className="line-2"></span>
             <span className="circle-1"></span>
-            <span className="line-1"></span>  
+            <span className="line-2"></span>  
         </div>
     )
 }
@@ -17,25 +17,27 @@ function DropDown(props) {
     const [drop, setDrop] = React.useState(0);
     return (
         <div className="WK-comp">
-            <div className="WK-data">
-                <h4 className="WK-Cat" onClick={() => {drop ? setDrop(0) : setDrop(1)}}>{props.type}</h4> 
-                {drop ? <Content></Content>: null}
-            </div>
-            <span className="drop-down"
+            <span className="drop-down-WK"
                 onClick={() => {drop ? setDrop(0) : setDrop(1)}}
                 drop={drop}>
-                <p className="d1"></p><p className="d2"></p>
+                <p className="d1-WK"></p><p className="d2-WK"></p>
             </span>
+            <div className="WK-data">
+                <h4 className="WK-Cat" onClick={() => {drop ? setDrop(0) : setDrop(1)}}>{props.type}</h4> 
+            </div>
+            <div className="WK-content">
+                {drop ? <Content></Content>: null}
+            </div>
         </div>
     )
 }
 
 function Content(props) {
     return (
-        <div className="WK-content">
+        <div>
             <p className="text-WK">Controls Engineering Intern</p>
-            <p className="text-WK">Enter Software Used</p>
-            <p className="text-WK">Enter Short Descriptions</p>
+            <p className="text-WK">Software Used: Python, C, Java, Fortran</p>
+            <p className="text-WK">Automated the production of object files for NASA’s simulators using Python to analyze, interpret and format given data. Ensured production code validity by integrating an efficient automized testing algorithm.</p>
         </div>
     )
 }
