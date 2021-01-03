@@ -40,7 +40,7 @@
     background-color: #282c347e;
     border-radius: 40px;
     width: 70%;
-    height: 18em;
+    height: 19em;
     display: block;
     margin-left: 14%;
     margin-top: -16%;
@@ -62,7 +62,7 @@
 .line-1 {
     margin-left: 50%;
     width: 1px;
-    height: 3em;
+    height: 3.5em;
     border-left: 4px solid black;
     display: block;
 }
@@ -70,7 +70,7 @@
 .line-2 {
     margin-left: 50%;
     width: 1px;
-    height: 4em;
+    height: 2em;
     border-left: 4px solid black;
     display: block;
 }
@@ -114,6 +114,10 @@
     transform: rotate(0deg);
 }
 
+.drop-down-WK:hover {
+    cursor: pointer;
+}
+
 .d1-WK {
     display: inline-block;
     border-bottom: 5px solid mediumblue;
@@ -130,13 +134,14 @@
 }
 
 .WK-comp {
-    margin-top: 4.1em;
+
     margin-left: 2.1em;
     height: 25%;
+    
 }
 
 .WK-data {
-    margin-left: 1.2em;
+    margin-left: 0.5em;
     width: 6em;
     height: 1em;
 }
@@ -152,8 +157,35 @@
 
 .WK-content {
     font-size: 12px;
+    margin-top: -0.5em;
 }
 
-/* .text-WK {
-    
-} */
+.title-WK {
+    font-size: 14px;
+    padding-left: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.SW-USD-WK {
+    margin-top: -10px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.DSCR-WK {
+    margin-top: -10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+
+.jobs {
+    margin-top: 4.6em;
+}
+
+.WK-section {
+    height: 3.3em;
+}
