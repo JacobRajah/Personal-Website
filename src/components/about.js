@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './about.css'
 import Software from './pages/SoftwareExp/software-exp';
 import Work from './pages/WorkExp/work';
+import Projects from './pages/Projects/projects'
 
 function Media(props) {
     const [move, setmove] = React.useState(0);
@@ -23,19 +24,6 @@ function MediaOptions(props) {
             <h4 className="projects" onClick={() => props.toProjects()}>Projects</h4>
             <h4 className="education" onClick={() => props.toEducation()}>Education</h4>
             <h4 className="contact" onClick={() => props.toContact()}>Contact</h4>
-        </div>
-    )
-}
-
-function Projects(props) {
-    return (
-        <div>
-            <div className="panel">
-                <h3>Projects</h3>
-            </div>
-            <span className="Next" onClick={() => props.backOptions()}>
-                <p className="a1"></p><p className="a2"></p>
-            </span>
         </div>
     )
 }

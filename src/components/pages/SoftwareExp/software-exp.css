@@ -45,6 +45,7 @@
     margin-left: 14%;
     margin-top: -15%;
     animation: fadeIn ease-in 1s;
+    overflow: scroll;
 }
 
 @keyframes fadeIn {
@@ -135,23 +136,25 @@
 
 .sw-web {
     margin-top: -1em;
-    width: 40%;
+    width: 12em;
 }
 
 .sw-oop {
     margin-top: 2.5em;
-    width: 58%;
+    width: 18em;
 }
 
 .sw-sys {
-    width: 50%;
+    width: 14em;
+    height: 4em;
     display: inline-block;
     margin-top: -1.5em;
-    margin-left: 12%;
+    margin-left: 2em;
 }
 
 .sw-unix {
-    width: 40%;
+    width: 8em;
+    height: 5em;
     display: inline-block;
     margin-top: -1.5em;
 }
