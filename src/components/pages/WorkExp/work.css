@@ -45,6 +45,7 @@
     margin-left: 14%;
     margin-top: -16%;
     animation: fadeIn ease-in 1s;
+    overflow: scroll;
 }
 
 .panel::-webkit-scrollbar { 
@@ -134,14 +135,12 @@
 }
 
 .WK-comp {
-
     margin-left: 2.1em;
     height: 25%;
-    
 }
 
 .WK-data {
-    margin-left: 0.5em;
+    margin-left: 1em;
     width: 6em;
     height: 1em;
 }
