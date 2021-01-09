@@ -72,3 +72,25 @@
 .prj-heading {
     font-family: 'Pacifico', cursive;
 }
+
+.proj-section {
+    height: 9.6em;
+    background-color: #282c347e;
+    width: 93.5%;
+    margin-left: 1em;
+}
+
+.proj-section:hover {
+    box-shadow: 2px 2px black;
+    transition: ease-in 0.4s;
+}
+
+.proj-img {
+    float: left;
+    padding: 2%;
+}
+
+.proj-content {
+    text-align: left;
+    padding-top: 1px;
+}
