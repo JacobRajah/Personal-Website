@@ -11,9 +11,12 @@ function Section(props) {
                 <img src={props.img} width="300" height="200" alt="cover"></img>
             </div>
             <div className="proj-content">
-                <p>Insert Heading Here</p>
-                <p>Enter Software Used</p>
-                <p>Enter Description</p>
+                <h4>Insert Heading Here</h4>
+                <div className="sw-used">
+                    <p className="sw-used-heading">Software Used:</p>
+                    <p className="sw-used-data">Enter Software Used</p>
+                </div>
+                <p className="proj-description">Enter Description</p>
             </div>
             
         </div>
@@ -21,15 +24,17 @@ function Section(props) {
 }
 
 
-// function ProjectComp(props) {
-//     return(
-//         <div>
-//             {this.projects.map((e,i) => {
-//                         return(<img src={e.img} width="300" height="200" alt="cover"></img>)
-//             })}
-//         </div>
-//     )
-// }
+function ProjectComp(props) {
+    return(
+        <div className="proj-data">
+            {props.projects.map((e,i) => {
+                        return(<Section img={e.img} 
+                                        title={e.title} 
+                                        description={e.description}></Section>)
+            })}
+        </div>
+    )
+}
 
 class Projects extends Component {
 
@@ -59,7 +64,7 @@ class Projects extends Component {
             <div>
                 <div className="panel-PRJ">
                     <h3 className="prj-heading">Projects</h3>
-                    <Section img={this.projects[0].img}></Section>
+                    <ProjectComp projects={this.projects}></ProjectComp>
                 </div>
                 <span className="Next-PRJ" onClick={() => this.props.backOptions()}>
                     <p className="a1"></p><p className="a2"></p>
