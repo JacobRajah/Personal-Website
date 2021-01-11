@@ -99,7 +99,8 @@
 }
 
 .sw-used {
-    font-size: 16px;
+    margin-top: -1em;
+    font-size: 15px;
 }
 
 .sw-used-heading {
@@ -114,11 +115,10 @@
 }
 
 .proj-description {
-    background-color: black;
-    margin-left: 23em;
-    width: 24em;
+    margin-left: 27.2em;
+    width: 26.5em;
     height: 6em;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .proj-data {
