@@ -48,7 +48,7 @@
     overflow: scroll;
 }
 
-.panel::-webkit-scrollbar { 
+.panel-wk::-webkit-scrollbar { 
     display: none;
 }
 
