@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.be017eeb.chunk.css",
+    "main.css": "/Personal-Website/static/css/main.8a52612c.chunk.css",
     "main.js": "/Personal-Website/static/js/main.45efe93c.chunk.js",
     "main.js.map": "/Personal-Website/static/js/main.45efe93c.chunk.js.map",
     "runtime-main.js": "/Personal-Website/static/js/runtime-main.d4347329.js",
@@ -10,7 +10,7 @@
     "static/js/3.270c2f8e.chunk.js": "/Personal-Website/static/js/3.270c2f8e.chunk.js",
     "static/js/3.270c2f8e.chunk.js.map": "/Personal-Website/static/js/3.270c2f8e.chunk.js.map",
     "index.html": "/Personal-Website/index.html",
-    "static/css/main.be017eeb.chunk.css.map": "/Personal-Website/static/css/main.be017eeb.chunk.css.map",
+    "static/css/main.8a52612c.chunk.css.map": "/Personal-Website/static/css/main.8a52612c.chunk.css.map",
     "static/js/2.6571f07e.chunk.js.LICENSE.txt": "/Personal-Website/static/js/2.6571f07e.chunk.js.LICENSE.txt",
     "static/media/about.css": "/Personal-Website/static/media/about.d10fefa8.jpeg",
     "static/media/lyricfynder.f3a7aede.png": "/Personal-Website/static/media/lyricfynder.f3a7aede.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.d4347329.js",
     "static/js/2.6571f07e.chunk.js",
-    "static/css/main.be017eeb.chunk.css",
+    "static/css/main.8a52612c.chunk.css",
     "static/js/main.45efe93c.chunk.js"
   ]
 }
