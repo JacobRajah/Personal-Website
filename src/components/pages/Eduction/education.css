@@ -1,4 +1,4 @@
-.Next-PRJ {
+.educ-Next {
     float: right;
     margin-top: 1%;
     margin-right: 2%;
@@ -12,7 +12,7 @@
     animation: fadeIn ease-in 1s;
 }
 
-.Next-PRJ:hover {
+.educ-Next:hover {
     background-color: mediumblue;
     transition: all ease 0.4s;
 }
@@ -49,78 +49,80 @@
     100% {opacity: 0;}
 }
 
-.panel-PRJ {
+.educ-panel {
     background-color: #282c347e;
     border-radius: 40px;
     width: 70%;
-    height: 18em;
+    height: 16em;
     padding-bottom: 1em;
     display: block;
     margin-left: 14%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-top: -15%;
     animation: fadeIn ease-in 1s;
     overflow: scroll;
 }
 
-.panel-PRJ::-webkit-scrollbar { 
+.educ-panel::-webkit-scrollbar { 
     display: none;
 }
 
-.panel-PRJ[fadeout="1"] {
-    animation: fadeOut ease-out 1s;
-}
-
-.prj-heading {
+.educ-heading {
     font-family: 'Pacifico', cursive;
 }
 
-.proj-section {
+.study {
     margin-top: 2em;
-    height: 9.6em;
     background-color: #282c347e;
     width: 93.5%;
-    margin-left: 1em;
+    height: auto;
+    margin: auto;
     transition: ease-out 0.4s;
+    /* padding: 5px; */
 }
 
-.proj-section:hover {
+.study:hover {
     box-shadow: 2px 0px rgba(0, 0, 0, 0.527);
     transition: ease-in 0.4s;
 }
 
-.proj-img {
+.school-img {
     float: left;
-    padding: 2%;
+    padding: 5px;
 }
 
-.proj-content {
+.img-sch {
+    width: 300px;
+    height: 200px;
+}
+
+.school-info {
+    margin-left: 13em;
+    height: 200px;
     text-align: left;
-    padding-top: 1px;
+    padding: 5px;
+    line-height: 2px;
 }
 
-.sw-used {
-    margin-top: -1em;
-    font-size: 15px;
+.institution {
+    margin-top: 10px;
 }
 
-.sw-used-heading {
-    font-weight: bold;
-    display: inline;
-    
-}
-
-.sw-used-data {
-    margin-left: 5px;
-    display: inline;
-}
-
-.proj-description {
-    margin-left: 27.2em;
-    width: 26.5em;
-    height: 6em;
+.educ-level {
     font-size: 12px;
 }
 
-.proj-data {
-    margin-top: -0.5em;
+.years {
+    font-size: 12px;
+}
+
+.course-heading {
+    margin-top: 3em;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.relevant-courses {
+    font-size: 14px;
 }

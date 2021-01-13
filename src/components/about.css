@@ -93,9 +93,11 @@
     margin-left: 1em;
     display: inline-block;
     border: 2px solid whitesmoke;
-    width: 210px;
+    width: fit-content;
     height: 35px;
-    padding-top: 2.6px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
     transition: 0.4s;
     color: whitesmoke;
 }

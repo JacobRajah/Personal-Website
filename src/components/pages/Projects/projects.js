@@ -58,7 +58,7 @@ class Projects extends Component {
                 description: "Interactive app which allows users to streamline" +
                 " the process of deciding what meals to cook based on the amount" +
                 " of time they have. I worked on designing the UI and the functions" +
-                " for accessing recipe data"
+                " for accessing recipe data. Built for UofTHacks VII"
             },
             {
                 img: Wave,
