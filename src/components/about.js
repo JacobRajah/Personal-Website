@@ -4,6 +4,7 @@ import Software from './pages/SoftwareExp/software-exp';
 import Work from './pages/WorkExp/work';
 import Projects from './pages/Projects/projects'
 import Education from './pages/Eduction/education'
+import Contact from './pages/Contact/contact'
 
 function Media(props) {
     const [move, setmove] = React.useState(0);
@@ -28,21 +29,6 @@ function MediaOptions(props) {
         </div>
     )
 }
-
-function Contact(props) {
-    return (
-        <div>
-            <div className="panel">
-                <h3>Contact</h3>
-            </div>
-            <span className="Next" onClick={() => props.backOptions()}>
-                <p className="a1"></p><p className="a2"></p>
-            </span>
-        </div>
-    )
-}
-
-
 
 class About extends Component {
 

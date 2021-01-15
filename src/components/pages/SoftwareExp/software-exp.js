@@ -86,19 +86,24 @@ class Software extends Component{
             <div>
                 <div className="panel-software">
                     <h2 className="sw-heading">Software Experience</h2>
-                    <div className="sw-web">
-                        <DropDown items={this.state.web} type="Web Development"></DropDown>
+                    <div className="sw-top">
+                        <div className="sw-web">
+                            <DropDown items={this.state.web} type="Web Development"></DropDown>
+                        </div>
+                        <div className="sw-sys">
+                            <DropDown items={this.state.sys} type="Systems Development"></DropDown>
+                        </div>
                     </div>
-                    <div className="sw-sys">
-                        <DropDown items={this.state.sys} type="Systems Development"></DropDown>
+                    <div className="sw-bottom">
+                        <div className="sw-oop">
+                            <DropDown items={this.state.oop} 
+                                    type="Object Oriented Programming"></DropDown>
+                        </div>
+                        <div className="sw-unix">
+                            <DropDown items={this.state.unix} type="Unix Shell"></DropDown>
+                        </div>
                     </div>
-                    <div className="sw-oop">
-                        <DropDown items={this.state.oop} 
-                                type="Object Oriented Programming"></DropDown>
-                    </div>
-                    <div className="sw-unix">
-                        <DropDown items={this.state.unix} type="Unix Shell"></DropDown>
-                    </div>
+                    
                     <div className="sw-legend">
                         <Legend skill="Example" prog="60%"></Legend>
                     </div>

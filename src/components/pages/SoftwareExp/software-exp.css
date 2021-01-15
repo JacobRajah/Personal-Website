@@ -139,25 +139,29 @@
 }
 
 .sw-web {
+    display: inline-block;
     margin-top: -1em;
     width: 12em;
+    height: 8em;
 }
 
 .sw-oop {
-    margin-top: 2.5em;
+    display: inline-block;
     width: 18em;
+    height: 5em;
+    margin-top: -1.5em;
 }
 
 .sw-sys {
     width: 14em;
-    height: 4em;
+    height: 8em;
     display: inline-block;
     margin-top: -1.5em;
     margin-left: 2em;
 }
 
 .sw-unix {
-    width: 8em;
+    width: 9em;
     height: 5em;
     display: inline-block;
     margin-top: -1.5em;
