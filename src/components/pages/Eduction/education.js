@@ -8,15 +8,29 @@ function Study(props) {
     return (
         <div className="study">
             <div className="school-img">
-                <img className="img-sch" src={UofT} alt="School"></img>
+                <img className="img-sch" src={props.image} alt="School"></img>
             </div>
             <div className="school-info">
-                <h4 className="institution">Insert Institution</h4>
-                <p className="educ-level">Insert Education Level</p>
-                <p className="years">Insert Years</p>
+                <h4 className="institution">{props.name}</h4>
+                <p className="educ-level">{props.educ_level}</p>
+                <p className="years">{props.year}</p>
                 <p className="course-heading">Relevant Courses:</p>
-                <p className="relevant-courses">Insert relevant coursework</p>
+                <p className="relevant-courses">{props.rel_courses}</p>
             </div>
+        </div>
+    )
+}
+
+function Sections(props) {
+    return (
+        <div className="educ-sections">
+            {props.educ.map((e, i) => {
+                return(<Study name={e.name} 
+                              educ_level={e.educ_level}
+                              year={e.year}
+                              rel_courses={e.rel_courses}
+                              image={e.image}></Study>)
+            })}
         </div>
     )
 }
@@ -61,7 +75,7 @@ class Education extends Component {
             <div>
                 <div className="educ-panel">
                     <h3 className="educ-heading">Education</h3>
-                    <Study></Study>
+                    <Sections educ={this.educations}></Sections>
                 </div>
                 <span className="educ-Next" onClick={() => this.props.backOptions()}>
                     <p className="a1"></p><p className="a2"></p>

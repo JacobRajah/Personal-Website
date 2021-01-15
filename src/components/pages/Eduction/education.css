@@ -1,6 +1,6 @@
 .educ-Next {
     float: right;
-    margin-top: 1%;
+    margin-top: 3%;
     margin-right: 2%;
     color: mediumblue;
     cursor: pointer;
@@ -73,11 +73,10 @@
 }
 
 .study {
-    margin-top: 2em;
+    margin-top: 1em;
     background-color: #282c347e;
     width: 93.5%;
     height: auto;
-    margin: auto;
     transition: ease-out 0.4s;
     /* padding: 5px; */
 }
@@ -125,4 +124,9 @@
 
 .relevant-courses {
     font-size: 14px;
+    line-height: 16px;
+}
+
+.educ-sections {
+    margin-left: 2em;
 }
