@@ -3,6 +3,7 @@ import './projects.css'
 import Wave from '../../../images/waves.png';
 import LyricFynder from '../../../images/lyricfynder.png'
 import RecipeReady from '../../../images/recipeready.JPG'
+import Stockroach from '../../../images/StockroachThumbnail.png'
 
 function Section(props) {
     return (
@@ -50,6 +51,15 @@ class Projects extends Component {
                             " along with the YouTube API and Puppeteer web scraping, "
                             + "to determine the song related to the user’s lyrical input. "
                             + "Offers other features such as Top charts of the week and trending music."
+            },
+            {
+                img: Stockroach,
+                title: "Stockroach",
+                sw: "Node.js, React.js, Python, DropBase API, AlphaVantage API",
+                description: "A portfolio management system for users who wish "+
+                "to track real time statistics on the stocks they’re invested in. "+
+                "Uses the DropBase API which allows for CSV’s t0 be uploaded to their" +
+                " database and accessed using a postgres REST API. Built for HackTheNorth 2021"
             },
             {
                 img: RecipeReady,
